@@ -653,8 +653,7 @@ b, strong {
 .card {
   display: grid;
   place-items: center;
-  width: 80vw;
-  max-width: 21.875rem;
+  width: 100%;
   height: 28.125rem;
   overflow: hidden;
   border-radius: 0.625rem;
@@ -676,9 +675,7 @@ b, strong {
   --flow-space: 0.9375rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-self: flex-end;
-  height: 55%;
+  height: 100%;
   padding: 12% 1.25rem 1.875rem;
   background: linear-gradient(
     180deg,
@@ -729,7 +726,7 @@ b, strong {
 
 @media (any-hover: hover) and (any-pointer: fine) {
   .card__content {
-    transform: translateY(62%);
+    transform: translateY(68%);
     transition: transform 500ms ease-out;
     transition-delay: 500ms;
   }
@@ -792,6 +789,13 @@ b, strong {
   }
 }
 
+.project_titlle{
+  text-align: center;
+  margin-bottom: -30px;
+}
 
+.link_show button a:hover{color: #ffffff !important;}
 
+.link_show button{margin-right: 5px;}
 
+.link_show button:hover{color: #fff;}
